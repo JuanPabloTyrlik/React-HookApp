@@ -1,7 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './effects.css';
-import { useEffect } from 'react';
-import { useState } from 'react';
 import Message from './Message';
 
 const SimpleForm = () => {
