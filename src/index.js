@@ -10,8 +10,9 @@ import ReactDOM from 'react-dom';
 import './components/02-useEffect/effects.css';
 // import Memorize from './components/06-Memo/Memorize';
 // import MemoHook from './components/06-Memo/MemoHook';
-import CallbackHook from './components/07-useCallback/CallbackHook';
+// import CallbackHook from './components/07-useCallback/CallbackHook';
 // import RealExampleRef from './components/04-useRef/RealExampleRef';
 // import Layout from './components/05-useLayoutEffect/Layout';
+import {Padre} from './components/08-tarea-memo/Padre';
 
-ReactDOM.render(<CallbackHook />, document.getElementById('root'));
+ReactDOM.render(<Padre />, document.getElementById('root'));
