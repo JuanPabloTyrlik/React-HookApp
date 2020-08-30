@@ -13,6 +13,7 @@ import './components/02-useEffect/effects.css';
 // import CallbackHook from './components/07-useCallback/CallbackHook';
 // import RealExampleRef from './components/04-useRef/RealExampleRef';
 // import Layout from './components/05-useLayoutEffect/Layout';
-import {Padre} from './components/08-tarea-memo/Padre';
+// import {Padre} from './components/08-tarea-memo/Padre';
+import TodoApp from './components/09-useReducer/TodoApp';
 
-ReactDOM.render(<Padre />, document.getElementById('root'));
+ReactDOM.render(<TodoApp />, document.getElementById('root'));
