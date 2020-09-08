@@ -15,6 +15,7 @@ import ReactDOM from 'react-dom';
 // import Layout from './components/05-useLayoutEffect/Layout';
 // import {Padre} from './components/08-tarea-memo/Padre';
 // import TodoApp from './components/09-useReducer/TodoApp';
-import { MainApp } from './components/10-useContext/MainApp';
+// import { MainApp } from './components/10-useContext/MainApp';
+import HookApp from './HooksApp';
 
-ReactDOM.render(<MainApp />, document.getElementById('root'));
+ReactDOM.render(<HookApp />, document.getElementById('root'));
