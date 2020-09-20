@@ -1,7 +1,7 @@
 import React from 'react';
 import '../02-useEffect/effects.css';
-import { useFetch } from '../hooks/useFetch';
-import { useCounter } from '../hooks/useCounter';
+import { useFetch } from '../../hooks/useFetch';
+import { useCounter } from '../../hooks/useCounter';
 
 const MultipleCustomHooks = () => {
     const { counter, increment } = useCounter(1);
