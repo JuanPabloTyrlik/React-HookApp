@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on RealExampleRef should render MultipleCustomHooks 1`] = `
+<div>
+  <h1>
+    Real Example Ref
+  </h1>
+  <hr />
+  <MultipleCustomHooks />
+  <button
+    className="btn btn-primary mt-3"
+    onClick={[Function]}
+  >
+    Hide
+  </button>
+</div>
+`;
+
+exports[`Tests on RealExampleRef should render correctly 1`] = `
+<div>
+  <h1>
+    Real Example Ref
+  </h1>
+  <hr />
+  <button
+    className="btn btn-primary mt-3"
+    onClick={[Function]}
+  >
+    Show
+  </button>
+</div>
+`;
